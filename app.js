@@ -1,5 +1,4 @@
-import express from "express";
-import mongoose from "mongoose";
+  const token = jwt.sign({ email }, process.env.JWT_SECRET, { expiresIn: "1h" });import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import User from "./models/User.js";
